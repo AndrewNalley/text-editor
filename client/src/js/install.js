@@ -5,7 +5,6 @@ const installText = document.getElementById('installInfo');
 window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
     butInstall.style.visibility = 'visible';
-    installText.textContent = 'Click the button to install';
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
