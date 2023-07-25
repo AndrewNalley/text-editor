@@ -29,6 +29,10 @@ module.exports = () => {
       new WebpackPwaManifest({
         filename: "manifest.json",
         name: "text-editor",
+        short_name: "edit",
+        description: "Write stuff",
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: "./",
         inject: true,
         fingerprints: false,
@@ -47,7 +51,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: ['style.loader', 'css-loader'],
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
