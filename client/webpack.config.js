@@ -24,7 +24,7 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: './src/sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
       }), 
       new WebpackPwaManifest({
         filename: "manifest.json",
@@ -33,10 +33,10 @@ module.exports = () => {
         description: "Write stuff",
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: "./",
+        start_url: "/",
         inject: true,
         fingerprints: false,
-        publicPath: './',
+        publicPath: '/',
         icons: [
           {
           src: path.resolve('./src/images/logo.png'),
