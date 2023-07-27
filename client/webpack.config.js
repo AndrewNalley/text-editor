@@ -32,7 +32,7 @@ module.exports = () => {
         description: "Write stuff",
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: "/",
+        start_url: '/',
         inject: true,
         fingerprints: false,
         publicPath: '/',
@@ -52,10 +52,10 @@ module.exports = () => {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
         },
-        // {
-        //   test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        //   type: 'asset/resource',
-        // },
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: 'asset/resource',
+        },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
