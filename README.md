@@ -8,8 +8,6 @@ I constructed this application with the intent to discover the uses of Progressi
 
 ## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -19,16 +17,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 
 If you wish to download and tinker with the code yourself, simply clone the repository and make sure you install the node modules with npm install.
-
-## Usage
-
-To view the running application, navigate to: https://quiet-refuge-91962-ea7983db271c.herokuapp.com/
-
-Photo:
-[app-photo](assets/images/app-photo.png)
-
-To install the application so that it functions offline, click the "Install" button!
-
 
 ## License
 
